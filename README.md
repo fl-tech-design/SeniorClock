@@ -10,4 +10,4 @@ copy theapk file to your android phone <br>
 and install it normally with a double click
 
 <H3>Verify your download</H3>
-SHA256: 1885eb55a8922e018bc7824bcb7721e2f9d59adac2b364fbe44e3af45f7d4c18
+SHA256: fcb24d78a0827accc1f031b04829e1e5ce6640251a13a53dafdce5014c340236

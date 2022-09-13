@@ -29,7 +29,6 @@ def set_act_data(act_key, act_data):
     with open("data.json", "w", encoding='UTF-8') as file:
         json.dump(data, file)
 
-
 def set_timer(act_key, act_data):
     """ WRITE THE NEW HIGH-SCORE TO THE .JSON FILE """
     data = r_json()
