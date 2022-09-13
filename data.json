@@ -1,15 +1,10 @@
 {
   "app": {
-    "act_lang": "de",
-    "act_a_col": {
-      "a_red": 1,
-      "a_green": 1,
-      "a_blue": 1
-    },
-    "act_c_col": {
-      "c_red": 1,
-      "c_green": 1,
-      "c_blue": 1
+    "act_lang": "fr",
+    "alarm_count": 1,
+    "alarm_1": {
+      "a1_h": 0,
+      "a1_m": 0
     },
     "act_timer": {
       "t_h": 0,
@@ -44,6 +39,7 @@
       "Dec": "Dezember"
     },
     "label": {
+      "l_alarm": "Alarm",
       "l_aud": "T\u00f6ne",
       "l_setting": "Einstellungen",
       "l_timer": "Timer",
@@ -88,6 +84,7 @@
       "Dec": "December"
     },
     "label": {
+      "l_alarm": "Alert",
       "l_aud": "Tones",
       "l_setting": "Settings",
       "l_timer": "Countdown",
@@ -132,6 +129,7 @@
       "Dec": "D\u00e9cembre"
     },
     "label": {
+      "l_alarm": "Alarme",
       "l_aud": "Tons",
       "l_setting": "Param\u00e8tres",
       "l_timer": "Minuteur",
@@ -176,6 +174,7 @@
       "Dec": "Dicembre"
     },
     "label": {
+      "l_alarm": "Allarme",
       "l_aud": "Toni",
       "l_setting": "Parametri",
       "l_timer": "Temporizzatore",
@@ -220,6 +219,7 @@
       "Dec": "\u0394\u03b5\u03ba\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5"
     },
     "label": {
+      "l_alarm": "\u03a3\u03c5\u03bd\u03b1\u03b3\u03b5\u03c1\u03bc\u03cc\u03c2",
       "l_aud": "\u03a4\u03cc\u03bd\u03bf\u03c5\u03c2",
       "l_setting": "\u03a1\u03c5\u03b8\u03bc\u03af\u03c3\u03b5\u03b9\u03c2",
       "l_timer": "\u03a7\u03c1\u03bf\u03bd\u03cc\u03bc\u03b5\u03c4\u03c1\u03bf",

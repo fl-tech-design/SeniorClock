@@ -62,7 +62,6 @@ class ClockView(FloatLayout):
         self.set_label_clock()
         self.set_label_date()
         self.ids.b_set.text = self.data[self.act_language]["label"]["l_setting"]
-        self.ids.b_tim.text = self.data[self.act_language]["label"]["l_timer"]
         self.counter += 1
 
     def set_label_day_str(self):
@@ -97,10 +96,7 @@ class ClockView(FloatLayout):
         hour = now.strftime("%H")
         minute = now.strftime("%M")
         format_time = hour + " " + minute
-        clock_color = self.data["app"]["act_c_col"]
-        self.ids.points.color = (clock_color["c_red"], clock_color["c_green"], clock_color["c_blue"])
         self.ids.l_clock.text = format_time
-        self.ids.l_clock.color = (clock_color["c_red"], clock_color["c_green"], clock_color["c_blue"])
 
     def set_app_col(self):
         app_color = self.data["app"]["act_a_col"]
@@ -114,6 +110,11 @@ class ClockView(FloatLayout):
         """change to window level one"""
         app.screen_manager.transition.direction = "left"
         app.screen_manager.current = view
+
+
+class AlarmView(FloatLayout):
+    def update(self, *args):
+        print(args)
 
 
 class TimerView(FloatLayout):
@@ -269,6 +270,9 @@ class SettingView(FloatLayout):
         app_data = r_json()
         act_language = app_data["app"]["act_lang"]
         self.ids.l_titel.text = app_data[act_language]["label"]["l_setting"]
+        self.ids.b_alarm.text = app_data[act_language]["label"]["l_alarm"]
+        self.ids.b_tim.text = app_data[act_language]["label"]["l_timer"]
+
         self.ids.l_lang.text = app_data[act_language]["label"]["l_lang"]
         self.ids.b_clo.text = app_data[act_language]["label"]["l_clock"]
         self.ids.l_b_ger.text = app_data[act_language]["label"]["l_ger"]
@@ -287,7 +291,24 @@ class SettingView(FloatLayout):
 class TimeApp(App):
     def __init__(self):
         super().__init__()
-        self.screen_manager, self.clock_view, self.timer_view, self.setting_view = (None,) * 4
+        self.screen_manager, self.clock_view, self.timer_view, self.setting_view, self.alarm_view = (None,) * 5
+
+    def on_start(self):
+        from kivy.base import EventLoop
+        # attaching keyboard hook when app starts
+        EventLoop.window.bind(on_keyboard=self.hook_keyboard)
+
+    def hook_keyboard(self, window, key, *largs):
+        """# key == 27 means it is waiting for"""
+        if key == 27:
+            # checking if we are at mainscreen or not
+            if self.screen_manager.current == "clockview":
+                # return False close the app
+                return False
+            if self.screen_manager.current != "clockview":
+                # return False close the app
+                self.screen_manager.current = "clockview"
+                return True
 
     def build(self):
         self.screen_manager = ScreenManager()
@@ -297,6 +318,12 @@ class TimeApp(App):
         screen.add_widget(self.clock_view)
         self.screen_manager.add_widget(screen)
         Clock.schedule_interval(self.clock_view.update, 1)
+
+        self.alarm_view = AlarmView()
+        screen = Screen(name="alarmview")
+        screen.add_widget(self.alarm_view)
+        self.screen_manager.add_widget(screen)
+        Clock.schedule_interval(self.alarm_view.update, 0.2)
 
         self.timer_view = TimerView()
         screen = Screen(name="timerview")

@@ -1,5 +1,6 @@
 <B1@Button>:
-    font_size: dp(20)
+    color: 0.8, 0.8, 0.8
+    font_size: dp(23)
     background_normal: "backend/b_set.png"
     background_down: "backend/b_set.png"
     size_hint: 0.2, 0.1
@@ -48,13 +49,10 @@
             font_size: dp(100)
             size_hint: 0.8, 0.5
             pos_hint: {"x": 0.12, "y": 0.3}
-        B1:
-            id: b_tim
-            pos_hint: {"x":0.05, "y":0.9}
-            on_press: root.change_view("timerview")
+
         B1:
             id: b_set
-            pos_hint: {"x":0.4, "y":0.03}
+            pos_hint: {"x":0.4, "y":0.01}
             on_press: root.change_view("settingview")
 
 <TimerView>
@@ -124,28 +122,36 @@
             color: 0.9, 0.9, 0.9
             font_size: dp(30)
             size_hint: 0.5,0.1
-            pos_hint: {"x":0.25, "y":0.73}
+            pos_hint: {"x":0.25, "y":0.5}
         B2:
             id: l_b_ger
-            pos_hint: {"x":0.1, "y":0.68}
+            pos_hint: {"x":0.1, "y":0.43}
             on_press: root.set_app_data("act_lang","de")
         B2:
             id: l_b_eng
-            pos_hint: {"x":0.1, "y":0.61}
+            pos_hint: {"x":0.1, "y":0.36}
             on_press: root.set_app_data("act_lang","en")
         B2:
             id: l_b_fra
-            pos_hint: {"x":0.1, "y":0.54}
+            pos_hint: {"x":0.1, "y":0.29}
             on_press: root.set_app_data("act_lang", "fr")
         B2:
             id: l_b_gre
-            pos_hint: {"x":0.1, "y":0.47}
+            pos_hint: {"x":0.1, "y":0.22}
             on_press: root.set_app_data("act_lang", "gr")
         B2:
             id: l_b_ita
-            pos_hint: {"x":0.1, "y":0.40}
+            pos_hint: {"x":0.1, "y":0.15}
             on_press: root.set_app_data("act_lang", "it")
-        B1:
+        B2:
             id: b_clo
-            pos_hint: {"x":0.05, "y":0.9}
+            pos_hint: {"x":0.1, "y":0.8}
             on_press: root.change_view("clockview")
+        B2:
+            id: b_alarm
+            pos_hint: {"x":0.1, "y":0.73}
+            on_press: root.change_view("alarmview")
+        B2:
+            id: b_tim
+            pos_hint: {"x":0.1, "y":0.66}
+            on_press: root.change_view("timerview")
