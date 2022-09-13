@@ -1,4 +1,5 @@
 import json
+import time
 from datetime import datetime
 
 from kivy.app import App
@@ -49,7 +50,6 @@ class ClockView(FloatLayout):
         super(ClockView, self).__init__()
         self.now = None
         self.data = r_json()
-        self.act_clock_size = self.data["app"]["clock_size"]
         self.act_language = self.data["app"]["act_lang"]
         self.counter = 0
 
@@ -57,7 +57,6 @@ class ClockView(FloatLayout):
         print(args)
         self.data = r_json()
         self.act_language = self.data["app"]["act_lang"]
-        self.act_clock_size = dp(self.data["app"]["clock_size"])
         self.now = datetime.now()
         self.set_label_day_str()
         self.set_label_clock()
@@ -154,7 +153,8 @@ class TimerView(FloatLayout):
             self.ids.b_sta.text = self.a_data[self.a_lang]["label"]["l_stop"]
         if self.t_stat == 3 and self.a_stat == 1:
             self.ids.b_sta.text = self.a_data[self.a_lang]["label"]["l_end"]
-            play_audio("backend/ring.wav")
+            play_audio("backend/alarm-clock-short.wav")
+            time.sleep(1)
 
     def set_labels(self):
         if len(self.a_data[self.a_lang]["label"]["l_timer"]) > 7:

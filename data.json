@@ -1,1 +1,242 @@
-{"app": {"act_lang": "de", "act_a_col": {"a_red": 1, "a_green": 1, "a_blue": 1}, "act_c_col": {"c_red": 1, "c_green": 1, "c_blue": 1}, "clock_size": 100, "act_timer": {"t_h": 0, "t_m": 0, "t_s": 0}, "t_stat": 1, "a_stat": 0}, "de": {"day": {"Mon": "Montag", "Tue": "Dienstag", "Wed": "Mittwoch", "Thu": "Donnerstag", "Fri": "Freitag", "Sat": "Samstag", "Sun": "Sonntag"}, "month": {"Jan": "Januar", "Fev": "Februar", "Mar": "M\u00e4rz", "Apr": "April", "Mai": "Mai", "Jun": "Juni", "Jul": "Juli", "Aug": "August", "Sep": "September", "Oct": "Oktober", "Nov": "November", "Dec": "Dezember"}, "label": {"l_aud": "T\u00f6ne", "l_setting": "Einstellungen", "l_timer": "Timer", "l_lang": "Sprachen", "l_ger": "Deutsch", "l_eng": "Englisch", "l_fra": "Franz\u00f6sisch", "l_gre": "Griechisch", "l_ita": "Italienisch", "l_dig": "Digital", "l_sta": "Standart", "l_start": "Start", "l_stop": "Stop", "l_end": "Beenden", "l_old": "Alt", "l_vib": "Vibration", "l_clock": "Uhr"}}, "en": {"day": {"Mon": "Monday", "Tue": "Tuesday", "Wed": "Wednesday", "Thu": "Thursday", "Fri": "Friday", "Sat": "Saturday", "Sun": "Sunday"}, "month": {"Jan": "January", "Fev": "February", "Mar": "March", "Apr": "April", "Mai": "May", "Jun": "June", "Jul": "July", "Aug": "August", "Sep": "September", "Oct": "October", "Nov": "November", "Dec": "December"}, "label": {"l_aud": "Tones", "l_setting": "Settings", "l_timer": "Countdown", "l_lang": "Languages", "l_ger": "German", "l_eng": "English", "l_fra": "French", "l_gre": "Greek", "l_ita": "Italian", "l_dig": "Digital", "l_sta": "Standard", "l_start": "Start", "l_stop": "Stop", "l_end": "Finish", "l_old": "Old", "l_vib": "Vibration", "l_clock": "Clock"}}, "fr": {"day": {"Mon": "Lundi", "Tue": "Mardi", "Wed": "Mercredi", "Thu": "Jeudi", "Fri": "Vendredi", "Sat": "Samedi", "Sun": "Dimanche"}, "month": {"Jan": "Janvier", "Fev": "F\u00e9vrier", "Mar": "Mars", "Apr": "Avril", "Mai": "Mai", "Jun": "Juin", "Jul": "Juillet", "Aug": "Ao\u00fbt", "Sep": "Septembre", "Oct": "Octobre", "Nov": "Novembre", "Dec": "D\u00e9cembre"}, "label": {"l_aud": "Tons", "l_setting": "Param\u00e8tres", "l_timer": "Minuteur", "l_lang": "Traduction", "l_ger": "Allemand", "l_eng": "Anglais", "l_fra": "Fran\u00e7ais", "l_gre": "Grec", "l_ita": "Italien", "l_dig": "Num\u00e9rique", "l_sta": "Standard", "l_start": "Start", "l_stop": "Stop", "l_end": "Finir", "l_old": "Vieux", "l_vib": "Vibration", "l_clock": "Horloge"}}, "it": {"day": {"Mon": "Luned\u00ec", "Tue": "Marted\u00ec", "Wed": "Mercoled\u00ec", "Thu": "Gioved\u00ec", "Fri": "Venerd\u00ec", "Sat": "Sabato", "Sun": "Domenica"}, "month": {"Jan": "Gennaio", "Fev": "Febbraio", "Mar": "Marzo", "Apr": "Aprile", "Mai": "Maggio", "Jun": "Giugno", "Jul": "Luglio", "Aug": "Agosto", "Sep": "Settembre", "Oct": "Ottobre", "Nov": "Novembre", "Dec": "Dicembre"}, "label": {"l_aud": "Toni", "l_setting": "Parametri", "l_timer": "Temporizzatore", "l_lang": "Traduzione", "l_ger": "Tedesco", "l_eng": "Inglese", "l_fra": "Francese", "l_gre": "Greco", "l_ita": "Italiano", "l_dig": "Digitale", "l_sta": "Standard", "l_start": "Inizio", "l_stop": "Fermarsi", "l_end": "Finire", "l_old": "Vecchio", "l_vib": "Vibrazione", "l_clock": "Orologio"}}, "gr": {"day": {"Mon": "\u039c\u03cc\u03bd\u03c4\u03b1\u03b3\u03ba", "Tue": "\u03a4\u03c1\u03af\u03c4\u03b7", "Wed": "\u03a4\u03b5\u03c4\u03ac\u03c1\u03c4\u03b7", "Thu": "\u03a0\u03ad\u03bc\u03c0\u03c4\u03b7", "Fri": "\u03a0\u03b1\u03c1\u03b1\u03c3\u03ba\u03b5\u03c5\u03ae", "Sat": "\u03a3\u03ac\u03b2\u03b2\u03b1\u03c4\u03bf", "Sun": "\u039a\u03c5\u03c1\u03b9\u03b1\u03ba\u03ae"}, "month": {"Jan": "\u0399\u03b1\u03bd\u03bf\u03c5\u03b1\u03c1\u03af\u03bf\u03c5", "Fev": "\u03a6\u03b5\u03b2\u03c1\u03bf\u03c5\u03b1\u03c1\u03af\u03bf\u03c5", "Mar": "\u039c\u03b1\u03c1\u03c4\u03af\u03bf\u03c5", "Apr": "\u0391\u03c0\u03c1\u03b9\u03bb\u03af\u03bf\u03c5", "Mai": "\u039c\u03b1\u0390\u03bf\u03c5", "Jun": "\u0399\u03bf\u03c5\u03bd\u03af\u03bf\u03c5", "Jul": "\u0399\u03bf\u03c5\u03bb\u03af\u03bf\u03c5", "Aug": "\u0391\u03c5\u03b3\u03bf\u03cd\u03c3\u03c4\u03bf\u03c5", "Sep": "\u03a3\u03b5\u03c0\u03c4\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5", "Oct": "\u039f\u03ba\u03c4\u03c9\u03b2\u03c1\u03af\u03bf\u03c5", "Nov": "\u039d\u03bf\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5", "Dec": "\u0394\u03b5\u03ba\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5"}, "label": {"l_aud": "\u03a4\u03cc\u03bd\u03bf\u03c5\u03c2", "l_setting": "\u03a1\u03c5\u03b8\u03bc\u03af\u03c3\u03b5\u03b9\u03c2", "l_timer": "\u03a7\u03c1\u03bf\u03bd\u03cc\u03bc\u03b5\u03c4\u03c1\u03bf", "l_lang": "\u039c\u03b5\u03c4\u03ac\u03c6\u03c1\u03b1\u03c3\u03b7", "l_ger": "\u0393\u03b5\u03c1\u03bc\u03b1\u03bd\u03b9\u03ba\u03ac", "l_eng": "\u0391\u03b3\u03b3\u03bb\u03b9\u03ba\u03ac", "l_fra": "\u0393\u03b1\u03bb\u03bb\u03b9\u03ba\u03ac", "l_gre": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac", "l_ita": "\u0399\u03c4\u03b1\u03bb\u03b9\u03ba\u03ac", "l_dig": "\u03a8\u03b7\u03c6\u03b9\u03b1\u03ba\u03cc\u03c2", "l_sta": "\u03a0\u03c1\u03cc\u03c4\u03c5\u03c0\u03bf", "l_start": "\u0395\u03ba\u03ba\u03af\u03bd\u03b7\u03c3\u03b7", "l_stop": "\u03a3\u03c4\u03b1\u03bc\u03ac\u03c4\u03b1", "l_end": "\u03a4\u03b5\u03bb\u03b5\u03b9\u03ce\u03bd\u03c9", "l_old": "\u03a0\u03b1\u03bb\u03b9\u03cc\u03c2", "l_vib": "\u0394\u03cc\u03bd\u03b7\u03c3\u03b7", "l_clock": "\u03a1\u03bf\u03bb\u03cc\u03b9"}}}
+{
+  "app": {
+    "act_lang": "de",
+    "act_a_col": {
+      "a_red": 1,
+      "a_green": 1,
+      "a_blue": 1
+    },
+    "act_c_col": {
+      "c_red": 1,
+      "c_green": 1,
+      "c_blue": 1
+    },
+    "act_timer": {
+      "t_h": 0,
+      "t_m": 0,
+      "t_s": 0
+    },
+    "t_stat": 0,
+    "a_stat": 0
+  },
+  "de": {
+    "day": {
+      "Mon": "Montag",
+      "Tue": "Dienstag",
+      "Wed": "Mittwoch",
+      "Thu": "Donnerstag",
+      "Fri": "Freitag",
+      "Sat": "Samstag",
+      "Sun": "Sonntag"
+    },
+    "month": {
+      "Jan": "Januar",
+      "Fev": "Februar",
+      "Mar": "M\u00e4rz",
+      "Apr": "April",
+      "Mai": "Mai",
+      "Jun": "Juni",
+      "Jul": "Juli",
+      "Aug": "August",
+      "Sep": "September",
+      "Oct": "Oktober",
+      "Nov": "November",
+      "Dec": "Dezember"
+    },
+    "label": {
+      "l_aud": "T\u00f6ne",
+      "l_setting": "Einstellungen",
+      "l_timer": "Timer",
+      "l_lang": "Sprachen",
+      "l_ger": "Deutsch",
+      "l_eng": "Englisch",
+      "l_fra": "Franz\u00f6sisch",
+      "l_gre": "Griechisch",
+      "l_ita": "Italienisch",
+      "l_dig": "Digital",
+      "l_sta": "Standart",
+      "l_start": "Start",
+      "l_stop": "Stop",
+      "l_end": "Beenden",
+      "l_old": "Alt",
+      "l_vib": "Vibration",
+      "l_clock": "Uhr"
+    }
+  },
+  "en": {
+    "day": {
+      "Mon": "Monday",
+      "Tue": "Tuesday",
+      "Wed": "Wednesday",
+      "Thu": "Thursday",
+      "Fri": "Friday",
+      "Sat": "Saturday",
+      "Sun": "Sunday"
+    },
+    "month": {
+      "Jan": "January",
+      "Fev": "February",
+      "Mar": "March",
+      "Apr": "April",
+      "Mai": "May",
+      "Jun": "June",
+      "Jul": "July",
+      "Aug": "August",
+      "Sep": "September",
+      "Oct": "October",
+      "Nov": "November",
+      "Dec": "December"
+    },
+    "label": {
+      "l_aud": "Tones",
+      "l_setting": "Settings",
+      "l_timer": "Countdown",
+      "l_lang": "Languages",
+      "l_ger": "German",
+      "l_eng": "English",
+      "l_fra": "French",
+      "l_gre": "Greek",
+      "l_ita": "Italian",
+      "l_dig": "Digital",
+      "l_sta": "Standard",
+      "l_start": "Start",
+      "l_stop": "Stop",
+      "l_end": "Finish",
+      "l_old": "Old",
+      "l_vib": "Vibration",
+      "l_clock": "Clock"
+    }
+  },
+  "fr": {
+    "day": {
+      "Mon": "Lundi",
+      "Tue": "Mardi",
+      "Wed": "Mercredi",
+      "Thu": "Jeudi",
+      "Fri": "Vendredi",
+      "Sat": "Samedi",
+      "Sun": "Dimanche"
+    },
+    "month": {
+      "Jan": "Janvier",
+      "Fev": "F\u00e9vrier",
+      "Mar": "Mars",
+      "Apr": "Avril",
+      "Mai": "Mai",
+      "Jun": "Juin",
+      "Jul": "Juillet",
+      "Aug": "Ao\u00fbt",
+      "Sep": "Septembre",
+      "Oct": "Octobre",
+      "Nov": "Novembre",
+      "Dec": "D\u00e9cembre"
+    },
+    "label": {
+      "l_aud": "Tons",
+      "l_setting": "Param\u00e8tres",
+      "l_timer": "Minuteur",
+      "l_lang": "Traduction",
+      "l_ger": "Allemand",
+      "l_eng": "Anglais",
+      "l_fra": "Fran\u00e7ais",
+      "l_gre": "Grec",
+      "l_ita": "Italien",
+      "l_dig": "Num\u00e9rique",
+      "l_sta": "Standard",
+      "l_start": "Start",
+      "l_stop": "Stop",
+      "l_end": "Finir",
+      "l_old": "Vieux",
+      "l_vib": "Vibration",
+      "l_clock": "Horloge"
+    }
+  },
+  "it": {
+    "day": {
+      "Mon": "Luned\u00ec",
+      "Tue": "Marted\u00ec",
+      "Wed": "Mercoled\u00ec",
+      "Thu": "Gioved\u00ec",
+      "Fri": "Venerd\u00ec",
+      "Sat": "Sabato",
+      "Sun": "Domenica"
+    },
+    "month": {
+      "Jan": "Gennaio",
+      "Fev": "Febbraio",
+      "Mar": "Marzo",
+      "Apr": "Aprile",
+      "Mai": "Maggio",
+      "Jun": "Giugno",
+      "Jul": "Luglio",
+      "Aug": "Agosto",
+      "Sep": "Settembre",
+      "Oct": "Ottobre",
+      "Nov": "Novembre",
+      "Dec": "Dicembre"
+    },
+    "label": {
+      "l_aud": "Toni",
+      "l_setting": "Parametri",
+      "l_timer": "Temporizzatore",
+      "l_lang": "Traduzione",
+      "l_ger": "Tedesco",
+      "l_eng": "Inglese",
+      "l_fra": "Francese",
+      "l_gre": "Greco",
+      "l_ita": "Italiano",
+      "l_dig": "Digitale",
+      "l_sta": "Standard",
+      "l_start": "Inizio",
+      "l_stop": "Fermarsi",
+      "l_end": "Finire",
+      "l_old": "Vecchio",
+      "l_vib": "Vibrazione",
+      "l_clock": "Orologio"
+    }
+  },
+  "gr": {
+    "day": {
+      "Mon": "\u039c\u03cc\u03bd\u03c4\u03b1\u03b3\u03ba",
+      "Tue": "\u03a4\u03c1\u03af\u03c4\u03b7",
+      "Wed": "\u03a4\u03b5\u03c4\u03ac\u03c1\u03c4\u03b7",
+      "Thu": "\u03a0\u03ad\u03bc\u03c0\u03c4\u03b7",
+      "Fri": "\u03a0\u03b1\u03c1\u03b1\u03c3\u03ba\u03b5\u03c5\u03ae",
+      "Sat": "\u03a3\u03ac\u03b2\u03b2\u03b1\u03c4\u03bf",
+      "Sun": "\u039a\u03c5\u03c1\u03b9\u03b1\u03ba\u03ae"
+    },
+    "month": {
+      "Jan": "\u0399\u03b1\u03bd\u03bf\u03c5\u03b1\u03c1\u03af\u03bf\u03c5",
+      "Fev": "\u03a6\u03b5\u03b2\u03c1\u03bf\u03c5\u03b1\u03c1\u03af\u03bf\u03c5",
+      "Mar": "\u039c\u03b1\u03c1\u03c4\u03af\u03bf\u03c5",
+      "Apr": "\u0391\u03c0\u03c1\u03b9\u03bb\u03af\u03bf\u03c5",
+      "Mai": "\u039c\u03b1\u0390\u03bf\u03c5",
+      "Jun": "\u0399\u03bf\u03c5\u03bd\u03af\u03bf\u03c5",
+      "Jul": "\u0399\u03bf\u03c5\u03bb\u03af\u03bf\u03c5",
+      "Aug": "\u0391\u03c5\u03b3\u03bf\u03cd\u03c3\u03c4\u03bf\u03c5",
+      "Sep": "\u03a3\u03b5\u03c0\u03c4\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5",
+      "Oct": "\u039f\u03ba\u03c4\u03c9\u03b2\u03c1\u03af\u03bf\u03c5",
+      "Nov": "\u039d\u03bf\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5",
+      "Dec": "\u0394\u03b5\u03ba\u03b5\u03bc\u03b2\u03c1\u03af\u03bf\u03c5"
+    },
+    "label": {
+      "l_aud": "\u03a4\u03cc\u03bd\u03bf\u03c5\u03c2",
+      "l_setting": "\u03a1\u03c5\u03b8\u03bc\u03af\u03c3\u03b5\u03b9\u03c2",
+      "l_timer": "\u03a7\u03c1\u03bf\u03bd\u03cc\u03bc\u03b5\u03c4\u03c1\u03bf",
+      "l_lang": "\u039c\u03b5\u03c4\u03ac\u03c6\u03c1\u03b1\u03c3\u03b7",
+      "l_ger": "\u0393\u03b5\u03c1\u03bc\u03b1\u03bd\u03b9\u03ba\u03ac",
+      "l_eng": "\u0391\u03b3\u03b3\u03bb\u03b9\u03ba\u03ac",
+      "l_fra": "\u0393\u03b1\u03bb\u03bb\u03b9\u03ba\u03ac",
+      "l_gre": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac",
+      "l_ita": "\u0399\u03c4\u03b1\u03bb\u03b9\u03ba\u03ac",
+      "l_dig": "\u03a8\u03b7\u03c6\u03b9\u03b1\u03ba\u03cc\u03c2",
+      "l_sta": "\u03a0\u03c1\u03cc\u03c4\u03c5\u03c0\u03bf",
+      "l_start": "\u0395\u03ba\u03ba\u03af\u03bd\u03b7\u03c3\u03b7",
+      "l_stop": "\u03a3\u03c4\u03b1\u03bc\u03ac\u03c4\u03b1",
+      "l_end": "\u03a4\u03b5\u03bb\u03b5\u03b9\u03ce\u03bd\u03c9",
+      "l_old": "\u03a0\u03b1\u03bb\u03b9\u03cc\u03c2",
+      "l_vib": "\u0394\u03cc\u03bd\u03b7\u03c3\u03b7",
+      "l_clock": "\u03a1\u03bf\u03bb\u03cc\u03b9"
+    }
+  }
+}
