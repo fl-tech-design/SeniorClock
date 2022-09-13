@@ -1,0 +1,151 @@
+<B1@Button>:
+    font_size: dp(20)
+    background_normal: "backend/b_set.png"
+    background_down: "backend/b_set.png"
+    size_hint: 0.2, 0.1
+
+<B2@Button>:
+    color: 0.8, 0.8, 0.8
+    background_normal: 'backend/b_up.png'
+    background_down:'backend/b_do.png'
+    font_size: dp(20)
+    size_hint: 0.8, 0.05
+
+<B_U@Button>:
+    background_normal: "backend/up_n.png"
+    background_down: "backend/up_d.png"
+    size_hint: 0.2, 0.2
+
+<B_D@Button>:
+    background_normal: "backend/down_n.png"
+    background_down: "backend/down_d.png"
+    size_hint: 0.2, 0.2
+
+<ClockView>:
+    FloatLayout:
+        Label:
+            id: day_str
+            color: 0.9, 0.9, 0.9
+            size_hint: 0.5,0.1
+            pos_hint: {"x":0.25, "y":0.8}
+        Label:
+            id: l_date
+            size_hint: 0.5, 0.1
+            pos_hint: {"x": 0.25, "y": 0.22}
+        Label:
+            id: year
+            font_size: dp(40)
+            size_hint: 0.5, 0.1
+            pos_hint: {"x": 0.25, "y": 0.12}
+        Label:
+            id: l_clock
+            font_size: dp(140)
+            size_hint: 0.8, 0.5
+            pos_hint: {"x": 0.1, "y": 0.3}
+        Label:
+            id: points
+            text: ":"
+            font_size: dp(100)
+            size_hint: 0.8, 0.5
+            pos_hint: {"x": 0.12, "y": 0.3}
+        B1:
+            id: b_tim
+            pos_hint: {"x":0.05, "y":0.9}
+            on_press: root.change_view("timerview")
+        B1:
+            id: b_set
+            pos_hint: {"x":0.4, "y":0.03}
+            on_press: root.change_view("settingview")
+
+<TimerView>
+    FloatLayout:
+        Label:
+            id: l_tit
+            font_size: dp(100)
+            size_hint: 0.5,0.1
+            pos_hint: {"x":0.25, "y":0.8}
+        Label:
+            id: l_h
+            font_size: dp(90)
+            size_hint: 0.2,0.1
+            pos_hint: {"x":0.1, "y":0.5}
+        Label:
+            id: l_m
+            font_size: dp(90)
+            size_hint: 0.2, 0.1
+            pos_hint: {"x":0.4, "y":0.5}
+        Label:
+            id: l_s
+            font_size: dp(90)
+            size_hint: 0.2, 0.1
+            pos_hint: {"x":0.7, "y":0.5}
+        B1:
+            id: b_clo
+            pos_hint: {"x":0.05, "y":0.9}
+            on_press: root.change_view("clockview")
+        B1:
+            id: b_sta
+            font_size: dp(50)
+            size_hint: 0.8, 0.1
+            pos_hint: {"x":0.1, "y":0.17}
+            on_press: root.start_stop()
+        B1:
+            id: b_set
+            pos_hint: {"x":0.4, "y":0.02}
+            on_press: root.change_view("settingview")
+        B_U:
+            pos_hint: {"x":0.1, "y":0.6}
+            on_press: root.h_up()
+        B_D:
+            pos_hint: {"x":0.1, "y":0.3}
+            on_press: root.h_down()
+        B_U:
+            pos_hint: {"x":0.4, "y":0.6}
+            on_press: root.min_up()
+        B_D:
+            pos_hint: {"x":0.4, "y":0.3}
+            on_press: root.min_down()
+        B_U:
+            pos_hint: {"x":0.7, "y":0.6}
+            on_press: root.sec_up()
+        B_D:
+            pos_hint: {"x":0.7, "y":0.3}
+            on_press: root.sec_down()
+
+<SettingView>:
+    FloatLayout:
+        Label:
+            id: l_titel
+            font_size: dp(40)
+            size_hint: 0.5,0.1
+            pos_hint: {"x":0.25, "y":0.83}
+        Label:
+            id: l_lang
+            color: 0.9, 0.9, 0.9
+            font_size: dp(30)
+            size_hint: 0.5,0.1
+            pos_hint: {"x":0.25, "y":0.73}
+        B2:
+            id: l_b_ger
+            pos_hint: {"x":0.1, "y":0.68}
+            on_press: root.set_app_data("act_lang","de")
+        B2:
+            id: l_b_eng
+            pos_hint: {"x":0.1, "y":0.61}
+            on_press: root.set_app_data("act_lang","en")
+        B2:
+            id: l_b_fra
+            pos_hint: {"x":0.1, "y":0.54}
+            on_press: root.set_app_data("act_lang", "fr")
+        B2:
+            id: l_b_gre
+            pos_hint: {"x":0.1, "y":0.47}
+            on_press: root.set_app_data("act_lang", "gr")
+        B2:
+            id: l_b_ita
+            pos_hint: {"x":0.1, "y":0.40}
+            on_press: root.set_app_data("act_lang", "it")
+        B1:
+            id: b_clo
+            pos_hint: {"x":0.05, "y":0.9}
+            on_press: root.change_view("clockview")
