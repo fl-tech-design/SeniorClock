@@ -3,8 +3,29 @@
     "act_lang": "fr",
     "alarm_count": 1,
     "alarm_1": {
+      "a1_stat": 0,
       "a1_h": 0,
       "a1_m": 0
+    },
+    "alarm_2": {
+      "a2_stat": 0,
+      "a2_h": 0,
+      "a2_m": 0
+    },
+    "alarm_3": {
+      "a3_stat": 0,
+      "a3_h": 0,
+      "a3_m": 0
+    },
+    "alarm_4": {
+      "a4_stat": 0,
+      "a4_h": 0,
+      "a4_m": 0
+    },
+    "alarm_5": {
+      "a5_stat": 0,
+      "a5_h": 0,
+      "a5_m": 0
     },
     "act_timer": {
       "t_h": 0,
